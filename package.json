@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "firebase": "firebase emulators:start --import=firebase_initial_state",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run",
